@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.YtDlpDownloader" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnBackground">@color/text_primary_light</item>
+        <item name="colorOnSurface">@color/text_primary_light</item>
+        
+        <!-- Error color -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@android:color/white</item>
+        
+        <!-- Component styles -->
+        <item name="materialButtonStyle">@style/Widget.YtDlpDownloader.Button</item>
+        <item name="textInputStyle">@style/Widget.YtDlpDownloader.TextInputLayout</item>
+        <item name="chipStyle">@style/Widget.YtDlpDownloader.Chip</item>
+        <item name="cardViewStyle">@style/Widget.YtDlpDownloader.CardView</item>
+    </style>
+    
+    <!-- App Bar Overlay -->
+    <style name="Theme.YtDlpDownloader.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- Popup Overlay -->
+    <style name="Theme.YtDlpDownloader.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+    
+    <!-- Button Style -->
+    <style name="Widget.YtDlpDownloader.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <!-- Outlined Button Style -->
+    <style name="Widget.YtDlpDownloader.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <!-- Text Input Layout Style -->
+    <style name="Widget.YtDlpDownloader.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+    
+    <!-- Chip Style -->
+    <style name="Widget.YtDlpDownloader.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_background</item>
+        <item name="android:textColor">@color/chip_text</item>
+    </style>
+    
+    <!-- Card View Style -->
+    <style name="Widget.YtDlpDownloader.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+</resources>
